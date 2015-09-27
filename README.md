@@ -1,8 +1,12 @@
-<!--add library reference-->
-<script src="cSpinner.js"></script>
+# How to use
+
+#### Add library reference
+&lt;script src="cSpinner.js"&gt;&lt;/script&gt;
 
 
-//define parameter values
+
+#### Define parameter values
+```
 var Parameters = {
 	Radius: 50,
 	IsClockwise: false,
@@ -13,6 +17,9 @@ var Parameters = {
 	ActiveColor: '#5f5f5f',
 	InactiveColor: '#a5a5a5'
 };
+```
 
-//call cSpinner
+#### Call cSpinner
+```
 cs = cSpinner.Spinner("spin", Parameters);
+```
