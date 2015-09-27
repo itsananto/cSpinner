@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Spinner Demo</title>
+		<script src="spinner.js"></script>
+		<style>
+			#spin{
+				height: 500px;
+				width: 350px;
+				background-color: teal;
+				position: absolute;
+				top: 50px;
+				left: 100px;
+			}
+					
+			#spin2{
+				height: 500px;
+				width: 300px;
+				background-color: teal;
+				position: absolute;
+				top: 50px;
+				left: 500px;
+			}
+			
+			#spin3{
+				height: 500px;
+				width: 300px;
+				background-color: teal;
+				position: absolute;
+				top: 50px;
+				left: 900px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="spin"></div>
+		
+		<div id="spin2"></div>
+		
+		<div id="spin3"></div>
+	</body>
+	<script>
+		cSpinner.Spinner("spin", {Speed: 100, IsClockwise: true, Radius: 100, Density: 60, PosX: 120, PosY: 200}).spin();
+		cSpinner.Spinner("spin2", {Speed: 50}).spin();
+		cSpinner.Spinner("spin3", {Speed: 50}).spin();
+	</script>
+</html>

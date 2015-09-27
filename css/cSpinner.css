@@ -1,0 +1,203 @@
+#spin{
+	height: 300px;
+	width: 300px;
+	background-color: #393C3E;
+	border-radius: 15px;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #a5a5a5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container .text-muted span.text-muted-name{
+  color: darkblue;
+}
+
+code {
+  font-size: 80%;
+}
+
+.footer .text-muted{
+  color: #555;
+}
+
+.param{
+  display: inline-block;
+  width: 90px;
+}
+
+.paramValue{
+  width: 75% !important;
+}
+
+.container-fluid .row h4{
+  margin: 0;
+}
+
+.container-fluid .row hr{
+  margin-top: 0;
+}
+
+.well div{
+  margin-bottom: 9.5px;
+}
+
+.well .input-group{
+  width: 100%;
+}
+
+.well .slider{
+  width: 75% !important;
+}
+
+#codeJavascript{
+  height: 390px;
+}
+
+@media screen and (max-width: 1355px) {
+    .well .slider, .paramValue {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .well .slider, .paramValue {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .well .slider, .paramValue {
+        width: 70% !important;
+    }
+    
+    .footer{
+        bottom: inherit !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .well .slider, .paramValue {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .footer{
+        height: 105px !important;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .well div {
+        margin-bottom: 8px;
+    }
+    
+    #codeJavascript{
+      height: 362px;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .well div {
+        margin-bottom: 5px;
+    }
+    
+    #codeJavascript{
+      height: 320px;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .well div {
+        margin-bottom: 2px;
+    }
+    
+    #usage pre{
+      padding: 5px;
+    }
+    
+    #codeJavascript{
+      height: 290px;
+    }
+}
+
+@media screen and (max-height: 530px) {
+    .well div {
+        margin-bottom: 0px;
+    }
+    
+    #usage pre{
+      padding: 3px;
+      margin-bottom: 0;
+      margin-top: 3px
+    }
+    
+    #codeJavascript{
+      height: 280px;
+    }
+}
+
+body{
+  min-height: 510px;
+}
+
+ul.social-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+ul.social-links li{
+  font-size: 25px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+ul.social-links li .fa{
+  color: darkblue;
+}
+
+.footer .text-muted.pull-right{
+  font-weight: bold;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100% !important;
+}
