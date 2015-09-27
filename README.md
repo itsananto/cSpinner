@@ -14,5 +14,5 @@ var Parameters = {
 	InactiveColor: '#a5a5a5'
 };
 
-//call spinner
+//call cSpinner
 cs = cSpinner.Spinner("spin", Parameters);
